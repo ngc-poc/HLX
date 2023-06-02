@@ -273,3 +273,14 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+/* custom */
+.nav-sections ul li {
+  color: #000C6E;
+  font-weight: 900;
+  font-family: 'Ubuntu';
+}
+
+.nav-tools {
+  display: none;
+}
