@@ -6,6 +6,7 @@
   padding: 0;
   background: #d5edf5;
   color: #000C6E;
+  position: relative;
 }
 
 .ida-hero.block {
@@ -19,3 +20,10 @@
   text-shadow: 1.75px 1.75px #E30C31;
 }
 
+img.one-line {
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 8rem;
+}
