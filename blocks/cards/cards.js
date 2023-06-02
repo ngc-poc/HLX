@@ -1,7 +1,7 @@
 import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 
 export default function decorate(block) {
-  console.log(JSON.parse(block))
+  console.log(JSON.stringify(block))
 
   /* change to ul, li */
   const ul = document.createElement('ul');
