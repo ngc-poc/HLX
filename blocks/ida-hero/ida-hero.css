@@ -1,0 +1,21 @@
+
+.section .ida-hero-wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #d5edf5;
+  color: #000C6E;
+}
+
+.ida-hero.block {
+  height: 300px;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ida-hero h1 {
+  text-shadow: 1.75px 1.75px #E30C31;
+}
+
