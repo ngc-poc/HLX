@@ -281,6 +281,11 @@ header nav .nav-tools {
   font-family: 'Ubuntu';
 }
 
-.nav-tools {
-  display: none;
+nav#nav {
+  height: 100px;
+  align-items: center;
+}
+
+.nav-brand {
+  padding-right: 25px;
 }
