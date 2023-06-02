@@ -144,7 +144,6 @@ export default async function decorate(block) {
   }
 }
 
-
 // font loader Ubuntu and Open Sans
 if(!document.getElementById('font-preloader')) {
   var link = document.createElement('link');
