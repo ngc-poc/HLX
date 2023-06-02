@@ -20,9 +20,9 @@
   --text-color: #000;
 
   /* fonts */
-  --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
-  --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --body-font-family: 'Open Sans', sans-serif;
+  --heading-font-family: 'Ubuntu', sans-serif;
+  --fixed-font-family: 'Open Sans', monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;
