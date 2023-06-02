@@ -1,8 +1,11 @@
 import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 
-let cardsContainer = block;
+
 
 export default function decorate(block) {
+  let cardsContainer = block;
+  console.log(cardsContainer);
+
   /* change to ul, li */
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
