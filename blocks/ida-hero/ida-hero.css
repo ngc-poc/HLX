@@ -21,9 +21,33 @@
 }
 
 img.one-line {
+  display: none;
+}
+
+.one-line-icon img.one-line {
   display: inline-block;
   position: absolute;
   top: 50px;
   left: 20px;
   width: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .ida-hero h1 {
+    font-size: 32px;
+  }
+
+  .one-line-icon img.one-line {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    width: 8rem;
+    height: 8rem;
+}
+
+.one-line-icon .ida-hero h1 {
+  text-shadow: 1.75px 1.75px #E30C31;
+  margin-left: 8vw;
+}
 }
