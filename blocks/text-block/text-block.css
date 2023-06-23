@@ -1,0 +1,23 @@
+.text-block.block {
+    width: 66.66667%;
+    margin-inline: auto;
+    font-size: 1rem;
+}
+
+.text-block h2 {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 40px;
+    color: #000C6E;
+}
+
+.text-block h3 {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
