@@ -10,7 +10,7 @@
 }
 
 .ida-hero.block {
-  height: 300px;
+  height: auto;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -32,6 +32,10 @@ img.one-line {
   width: 8rem;
 }
 
+.one-line-icon .ida-hero h1 {
+  margin-left: 8vw;
+}
+
 @media only screen and (max-width: 600px) {
   .ida-hero h1 {
     font-size: 32px;
@@ -44,10 +48,5 @@ img.one-line {
     left: -20px;
     width: 8rem;
     height: 8rem;
-}
-
-.one-line-icon .ida-hero h1 {
-  text-shadow: 1.75px 1.75px #E30C31;
-  margin-left: 8vw;
 }
 }
