@@ -36,6 +36,14 @@ img.one-line {
   margin-left: 8vw;
 }
 
+.ida-hero.block:before {
+  left: 0;
+  margin-top: -1px;
+  -webkit-clip-path: polygon(50px 0, 0 0, 0 50px);
+  clip-path: polygon(50px 0, 0 0, 0 50px);
+}
+
+
 @media only screen and (max-width: 600px) {
   .ida-hero h1 {
     font-size: 32px;
