@@ -4,6 +4,10 @@
     font-size: 1rem;
 }
 
+.text-block.block.special-title h2 {
+    text-shadow: 1.75px 1.75px #E30C31;
+}
+
 .text-block h2 {
     font-family: Ubuntu;
     font-size: 36px;
@@ -19,5 +23,6 @@
     font-weight: 700;
     line-height: 45px;
     margin-bottom: 40px;
+    color: #000C78;
 }
 
